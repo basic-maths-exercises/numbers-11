@@ -8,6 +8,7 @@ except:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "AssCheck"])
     from AssCheck import funcchecks as fc
 
+import numpy as np
 import unittest
 from main import *
 
