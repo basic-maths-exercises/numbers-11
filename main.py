@@ -1,5 +1,7 @@
 def isRational( p, q ) :
   # Your code goes here
+  if q==0 : return 0
+  return 1
   
 print("The statement 3/4 is rational is", isRational(3,4))
 print("The statement 4/4 is rational is", isRational(4,4))
